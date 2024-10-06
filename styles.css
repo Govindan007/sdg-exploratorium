@@ -1,0 +1,91 @@
+body {
+    background-color: #000; /* Black background */
+    position: relative;
+    overflow-y: auto; /* Allow vertical scrolling */
+    min-height: 100vh; /* Minimum height for the body */
+    color: white; /* Default text color */
+}
+
+header {
+    background-image: url(Gemini_Generated_img1.jpeg); /* Replace with your image path */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0);
+    margin-top: 0px;
+    height: 150px;
+}
+footer{
+    background: url(Gemini_Generated_img1.jpeg);
+    height: 40px;
+}
+
+header h1 {
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+.card {
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.895); /* Darker card background with transparency */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Light border for cards */
+    transition: transform 0.3s, box-shadow 0.3s; /* Animation */
+}
+
+.card:hover {
+    transform: translateY(-10px) scale(1.02); /* 3D effect on hover */
+    box-shadow: 0 4px 30px rgba(255, 255, 255, 0.5); /* Shadow effect */
+}
+
+.btn.cosmic-btn {
+    background: linear-gradient(45deg, #4b6cb7, #182848); /* Cosmic gradient */
+    border: none;
+    color: white;
+    transition: transform 0.3s, box-shadow 0.3s; /* Animation */
+}
+
+.btn.cosmic-btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.8); /* Glow effect on hover */
+}
+
+.details {
+    margin-top: 10px;
+    background-color: rgba(52, 52, 52, 0.9); /* Darker section for details */
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+.carousel-control-prev,
+.carousel-control-next {
+    width: 50px; /* Adjust width as needed */
+    height: 50px; /* Adjust height as needed */
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%); /* Center the arrows */
+    z-index: 10; /* Ensure they appear above other content */
+}
+
+.carousel-control-prev {
+    left: -60px; /* Move the previous arrow to the left */
+}
+
+.carousel-control-next {
+    right: -60px; /* Move the next arrow to the right */
+}
+
+.list-group-item {
+    background-color: rgba(34, 34, 34, 0.8); /* Darker list item background */
+}
+#map {
+    background-color: rgba(34, 34, 34, 0.8);  /* Dark background to match theme */
+    border: 2px solid rgba(255, 255, 255, 0.2);  /* Light border for consistency */
+    border-radius: 10px;
+}
+
+.leaflet-popup-content-wrapper {
+    background-color: rgba(0, 0, 0, 0.9);  /* Dark background for popups */
+    color: white;  /* White text for better visibility */
+}
+
+.leaflet-popup-tip {
+    background-color: rgba(0, 0, 0, 0.9);  /* Match popup tip background */
+}
